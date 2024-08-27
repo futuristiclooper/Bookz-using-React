@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+  padding-left: 20px;
+}
+
+.bookscard {
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 19px;
+  border-radius: 15px;
+}
+
+.bookscard > img {
+  width: 100%;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search-container {
+  margin: 10px;
+  padding-left: 650px;
+  flex-grow: 1;
+  display: flex;
+
+  align-items: center;
+}
+
+.search-button {
+  padding: 6px 10px;
+  background: white;
+  color: green;
+  border: 1px solid green;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.search-button:hover {
+  background: darkgreen;
+  color: white;
+}
+
+.login-button {
+  padding: 6px 10px;
+  background: white;
+  color: green;
+  border: 1px solid green;
+  cursor: pointer;
+  border-radius: 4px;
+  
+}
+
+.logout-button {
+  padding: 6px 10px;
+  background: white;
+  color: green;
+  border: 1px solid green;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.login-button:hover {
+  background: darkgreen;
+  color: white;
+}
+.logout-button:hover {
+  background: darkgreen;
+  color: white;
+}
+.search-input[type="text"] {
+  padding: 6px;
+  margin-right: 10px;
+  border: 1px solid green;
+  font-size: 17px;
+  border-radius: 4px;
+}
+.list-items {
+  padding-right: 550px;
+  display: flex;
+}
+
+.list-items > li {
+  margin: 10px;
+}
+
+.logout-container{
+  padding: 10px;
+  
+}
+.login-container{
+  padding: 10px;
+  
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.bookDetails{
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+

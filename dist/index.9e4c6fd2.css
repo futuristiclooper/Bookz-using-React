@@ -1,0 +1,107 @@
+.header {
+  border: 1px solid #000;
+  border-radius: 15px;
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+  padding-left: 20px;
+}
+
+.bookscard {
+  border: 1px solid #000;
+  border-radius: 15px;
+  width: 200px;
+  margin: 19px;
+  padding: 10px;
+}
+
+.bookscard > img {
+  width: 100%;
+}
+
+.body {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.search-container {
+  flex-grow: 1;
+  align-items: center;
+  margin: 10px;
+  padding-left: 650px;
+  display: flex;
+}
+
+.search-button {
+  color: green;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid green;
+  border-radius: 20px;
+  padding: 6px 10px;
+}
+
+.search-button:hover {
+  color: #fff;
+  background: #006400;
+}
+
+.login-button, .logout-button {
+  color: green;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid green;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
+.login-button:hover, .logout-button:hover {
+  color: #fff;
+  background: #006400;
+}
+
+.search-input[type="text"] {
+  border: 1px solid green;
+  border-radius: 4px;
+  margin-right: 10px;
+  padding: 6px;
+  font-size: 17px;
+}
+
+.list-items {
+  padding-right: 550px;
+  display: flex;
+}
+
+.list-items > li {
+  margin: 10px;
+}
+
+.logout-container, .login-container {
+  padding: 10px;
+}
+
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+.bookDetails {
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 10px;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
